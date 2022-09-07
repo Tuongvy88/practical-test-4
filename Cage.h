@@ -7,7 +7,7 @@
 class Cage
 {
     public:
-        Cage(); // a default constructor ID number 
+        Cage(); 
         Cage(int newNumber, std::string newName); 
         std::string get_name(); 
         int get_ID_number(); 
