@@ -1,23 +1,20 @@
-//preventing multiple inclusion of header files 
+// Cage.h
 #ifndef CAGE_H
 #define CAGE_H
-#include<iostream>
-using namespace std;
-//Cage class defnition
+
+#include <iostream>
+
 class Cage
 {
-//instance variable declaration
-private:
-int id;
-string name;
-//method prototypes 
-public:
-Cage();
-Cage(int,string);
-string get_name();
-int get_id_number();
-void set_name(string);
-void set_id_number(int);
-~Cage(); 
+    public:
+        Cage(); // a default constructor ID number 
+        Cage(int newNumber, std::string newName); 
+        std::string get_name(); 
+        int get_ID_number(); 
+        ~Cage();
+    private:
+        int id;
+        std::string occupant;
 };
+
 #endif 

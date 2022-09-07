@@ -1,4 +1,4 @@
-#include "Cage.h" 
+#include "Cage.h"
 #include "Clinic.h"
 #include <iostream>
 using namespace std;
@@ -32,7 +32,7 @@ int main()
         cout << "Not added" << endl;
     }
     
-    cout << "Number of cages: " << clinic.get_current_number_of_cages() << endl;
+    cout << "Number of cages: " << clinic.get_number_of_cages() << endl;
     
     
     

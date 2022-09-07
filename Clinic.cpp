@@ -19,7 +19,7 @@ Clinic::Clinic(int new_max_size, std::string name){
 std::string Clinic::get_name(){
     return name;
 }
-int Clinic::get_current_number_of_cages(){
+int Clinic::get_number_of_cages(){
     return numCages;
 }
 // returns the array of cages currently in the clinic
